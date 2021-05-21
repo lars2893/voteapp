@@ -1,6 +1,8 @@
 
 # INSTALLING VOTE APP ON RHEL 7.9
 
+![](https://github.com/dockersamples/example-voting-app/blob/master/architecture.png)
+
 ## INSTALL redis
 
 ```
