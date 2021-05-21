@@ -150,7 +150,7 @@ curl -d "vote=b" -X POST 127.0.0.1:8080/
 curl 127.0.0.1:4000/
 ```
 
-# INSTALL loadgen (Node.js)
+## INSTALL loadgen (Node.js)
 ```
 # Assumes you already have installed result above to configure node
 npm install
