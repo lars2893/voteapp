@@ -139,6 +139,7 @@ docker run worker
 
 # Start the worker as a daemon
 docker run -d worker
+```
 
 ## DIRECTLY DRIVE TRAFFIC FROM TERMINAL 
 ```
