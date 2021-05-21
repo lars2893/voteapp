@@ -1,6 +1,8 @@
 
 # INSTALLING VOTE APP ON RHEL 7.9
 
+Simple voting app architecture that has two web UIs: one for casting a vote and one for viewing the aggregate results.  Includes a rudimentary loadgen app.  This is derived from the Docker Sample found [here](https://github.com/dockersamples/example-voting-app). **Be mindful this is semi-maintained code and dependencies on this should be taken with caution.**
+
 ![](https://github.com/dockersamples/example-voting-app/blob/master/architecture.png)
 
 ## INSTALL redis
