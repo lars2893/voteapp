@@ -1,19 +1,16 @@
+# INSTALLING VOTE APP ON RHEL 7.9
 
-INSTALLING VOTE APP ON RHEL 7.9
-
-
-
-##############################################################
-#                       Install redis                        #
-##############################################################
+## INSTALL redis
 
 ```
+# Download redis
 sudo yum install redis -y
-```
 
-# Start the server (add --daemonize yes to background)
-```
+# Verify the server is working 
 redis-server --protected-mode no 
+
+# Run as a daemon when ready
+redis-server --protected-mode no --daemonize yes
 ```
 
 #############################################################
